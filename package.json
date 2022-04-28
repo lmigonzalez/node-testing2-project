@@ -1,12 +1,22 @@
 {
-  "name": "node-testing2-project",
+  "name": "testing2-project",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bloominstituteoftechnology/node-testing2-project.git"
-  }
+  },
+  "description": "## Instructions",
+  "bugs": {
+    "url": "https://github.com/bloominstituteoftechnology/node-testing2-project/issues"
+  },
+  "homepage": "https://github.com/bloominstituteoftechnology/node-testing2-project#readme",
+  "keywords": [],
+  "author": "luis",
+  "license": "ISC"
 }
